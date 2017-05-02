@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SlackApiWrapper::testing self.getChannel(channel_id)" skipped="0" failures="0" errors="0" tests="3" assertions="3" time="0.1391115509904921">
+  <testcase name="test_0001_can get a channel given a valid channel_id" classname="SlackApiWrapper::testing self.getChannel(channel_id)" assertions="1" time="0.06706508400384337">
+  </testcase>
+  <testcase name="test_0002_raises argerror if no channel_id" classname="SlackApiWrapper::testing self.getChannel(channel_id)" assertions="1" time="0.00020991801284253597">
+  </testcase>
+  <testcase name="test_0003_returns false if no response" classname="SlackApiWrapper::testing self.getChannel(channel_id)" assertions="1" time="0.0718365489738062">
+  </testcase>
+</testsuite>

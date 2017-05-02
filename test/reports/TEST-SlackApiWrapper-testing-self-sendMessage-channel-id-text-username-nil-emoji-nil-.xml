@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SlackApiWrapper::testing self.sendMessage(channel_id, text, username=nil, emoji=nil)" skipped="0" failures="0" errors="0" tests="3" assertions="2" time="0.9826081210048869">
+  <testcase name="test_0003_requires a channel and a message" classname="SlackApiWrapper::testing self.sendMessage(channel_id, text, username=nil, emoji=nil)" assertions="0" time="0.00014876702334731817">
+  </testcase>
+  <testcase name="test_0001_can send a message to a valid channel" classname="SlackApiWrapper::testing self.sendMessage(channel_id, text, username=nil, emoji=nil)" assertions="1" time="0.03384062403347343">
+  </testcase>
+  <testcase name="test_0002_returns false when sending a message fails" classname="SlackApiWrapper::testing self.sendMessage(channel_id, text, username=nil, emoji=nil)" assertions="1" time="0.9486187299480662">
+  </testcase>
+</testsuite>

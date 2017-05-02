@@ -1,1 +1,13 @@
-<h1>Ada Channels</h1>
+<article class="index">
+  <h1>Ada Channels</h1>
+
+
+  <% @channels.each do |channel| %>
+  <ul>
+    <li>
+      <%= link_to channel.name, new_message_path(channel.id) %>
+    </li>
+  </ul>
+
+  <% end %>
+</article>

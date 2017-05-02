@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Channel" skipped="0" failures="0" errors="0" tests="4" assertions="7" time="0.00036930409260094166">
+  <testcase name="test_0001_requires 2 arguments to initialize" classname="Channel" assertions="2" time="0.00023924699053168297">
+  </testcase>
+  <testcase name="test_0004_has the accessor methods" classname="Channel" assertions="3" time="6.852298974990845e-05">
+  </testcase>
+  <testcase name="test_0002_can create a Channel instance" classname="Channel" assertions="1" time="3.8037076592445374e-05">
+  </testcase>
+  <testcase name="test_0003_can create a channel with optional params" classname="Channel" assertions="1" time="2.349703572690487e-05">
+  </testcase>
+</testsuite>

@@ -1,2 +1,17 @@
 
-<h1>Send Message to  </h1>
+<h1>Send Message to <%=@channel_name%></h1>
+
+<%= form_tag create_method_path, method: "post" do %>
+
+  <%= label_tag :message, "Message" %>
+  <%= text_field_tag(:message) %>
+
+  <%= label_tag :username, "Username (optional)" %>
+  <%= text_field_tag(:username) %>
+
+  <%= label_tag :emoji, "Emoji for icon (optional)" %>
+  <%= text_field_tag(:emoji) %>
+
+  <%= submit_tag("Send") %>
+
+<% end %>

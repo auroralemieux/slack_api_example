@@ -1,0 +1,490 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.slack.com/api/channels.list?token=<SLACK_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '5189'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Tue, 02 May 2017 19:38:35 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - channels:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 53ed85c4-6c41-40bf-9175-a4b4a831efa8
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c903e93e57c533ecd52152e4407a295e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Djwof-qiYoi3bq-vmnuZNMb1r7-3HU87mfaHKpg5BCd30G4dnHxjBg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"channels":[{"id":"C396CPYBG","name":"ada-announcements","is_channel":true,"created":1480460216,"creator":"U33KPH8S0","is_archived":false,"is_general":false,"name_normalized":"ada-announcements","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33FZD4JX","U33KPH8S0","U33N4KL5T","U38JGSJAY","U38S9TU5P","U391YDBC1","U392XNPT6","U397GTR46","U397K3J64","U39BMK1MX","U39C2CYGY","U39CMQAE5","U39D2JP09","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3FV967D2","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":60},{"id":"C51N24ZQR","name":"betsy-pm-jamie","is_channel":true,"created":1492721775,"creator":"U397GTR46","is_archived":false,"is_general":false,"name_normalized":"betsy-pm-jamie","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U38S9TU5P","U397GTR46","U39K1A0GK","U39KGBSBV","U39KVUG92","U3A4SHL02","U3AAH79KR","U3ANS5Z55","U3B16E3DG","U3BBK9ESD","U3BKCV9GW","U3M9ZMCBA"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":12},{"id":"C56FH0Z1B","name":"bikerbabes","is_channel":true,"created":1493421353,"creator":"U3B4KUY4V","is_archived":false,"is_general":false,"name_normalized":"bikerbabes","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U38S9TU5P","U397K3J64","U3AQYULLE","U3B4KUY4V"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":4},{"id":"C4792BWMT","name":"board_game_nights","is_channel":true,"created":1487363823,"creator":"U39KVUG92","is_archived":false,"is_general":false,"name_normalized":"board_game_nights","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U38S9TU5P","U39CMQAE5","U39EE260H","U39K1A0GK","U39KVUG92","U39LE4FR9","U3A5NGDBN","U3A78KE3G","U3A7XFU5C","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3B16E3DG","U3B4KUY4V","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX","U3MUYNWNM"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Channel
+        to plan game nights","creator":"U39KVUG92","last_set":1487363823},"previous_names":[],"num_members":21},{"id":"C4NH3LHG8","name":"business_card_bowl","is_channel":true,"created":1490364152,"creator":"U39K0AVJQ","is_archived":false,"is_general":false,"name_normalized":"business_card_bowl","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U397K3J64","U39CMQAE5","U39E85S65","U39EE260H","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U3A5NGDBN","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7XFU5C","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B4KUY4V","U3BKCV9GW","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Virtual
+        fishbowl for business cards! Post pictures and optional short explanation
+        of business cards you get at industry events that you don''t mind sharing!","creator":"U39K0AVJQ","last_set":1490364152},"previous_names":[],"num_members":22},{"id":"C57GQ1GBH","name":"c54d2euaw","is_channel":true,"created":1493592219,"creator":"U3B16E3DG","is_archived":true,"is_general":false,"name_normalized":"c54d2euaw","is_shared":false,"is_org_shared":false,"is_member":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"C4BBTM7RT","name":"cea","is_channel":true,"created":1488257232,"creator":"U3A798R5L","is_archived":false,"is_general":false,"name_normalized":"cea","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33KPH8S0","U38S9TU5P","U397K3J64","U39CMQAE5","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39GRUPMG","U39H46VAN","U39K0AVJQ","U39K1A0GK","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3A798R5L","U3A7PGK2T","U3A912N5V","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"To
+        share the silly missteps on our roads to greatness !","creator":"U3A798R5L","last_set":1488257233},"previous_names":[],"num_members":27},{"id":"C3XU2PECV","name":"code_review","is_channel":true,"created":1485633141,"creator":"U38S9TU5P","is_archived":false,"is_general":false,"name_normalized":"code_review","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U38S9TU5P","U39EE260H","U39ET8DQT","U39GRUPMG","U39H35674","U39H46VAN","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX"],"topic":{"value":"Code!  working
+        --&gt; pretty &amp; working!","creator":"U38S9TU5P","last_set":1485633693},"purpose":{"value":"A
+        place to post completed (working) code for review and discussion of style
+        and implementation.  Standard Ada guidelines for discussion practices apply.","creator":"U38S9TU5P","last_set":1485633660},"previous_names":[],"num_members":26},{"id":"C38JFSXNH","name":"cs-fundamentals","is_channel":true,"created":1480460181,"creator":"U33KPH8S0","is_archived":false,"is_general":false,"name_normalized":"cs-fundamentals","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33KPH8S0","U38S9TU5P","U391YDBC1","U397GTR46","U397K3J64","U39BMK1MX","U39C2CYGY","U39CMQAE5","U39D2JP09","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3FV967D2","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"https:\/\/adaacademy.hosted.panopto.com\/Panopto\/Pages\/Sessions\/List.aspx?folderID=ba6907aa-2dc6-49d8-bab0-482f34205486","creator":"U33KPH8S0","last_set":1493315734},"previous_names":[],"num_members":56},{"id":"C46L0M8UX","name":"dance","is_channel":true,"created":1487183363,"creator":"U39E85S65","is_archived":false,"is_general":false,"name_normalized":"dance","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U33KPH8S0","U38S9TU5P","U391YDBC1","U397K3J64","U39E85S65","U39EE260H","U39ET8DQT","U39H35674","U39H46VAN","U39J497DG","U39K1A0GK","U39K4VC4C","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A9RS5AB","U3ANS5Z55","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX","U3M9ZMCBA"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Dancing
+        encourages movement, movement makes us happy :) Channel created to talk about
+        where and when we dance.","creator":"U39E85S65","last_set":1487183363},"previous_names":[],"num_members":34},{"id":"C458CQZ5E","name":"for-sale","is_channel":true,"created":1487183547,"creator":"U3B44VBBP","is_archived":false,"is_general":false,"name_normalized":"for-sale","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U38S9TU5P","U397K3J64","U39CMQAE5","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39LE4FR9","U39LW83T7","U39MEJ3B7","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX","U3M9ZMCBA"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"For
+        Adies to post items they''d like to sell\/give away. Feel free to also put
+        \"I need\" posts too. OP: please comment \"sold\" or \"gone\" once item is
+        unavailable!","creator":"U3B44VBBP","last_set":1487184279},"previous_names":[],"num_members":41},{"id":"C47BV4BL2","name":"gamingnotteaminvite","is_channel":true,"created":1487432007,"creator":"U38S9TU5P","is_archived":false,"is_general":false,"name_normalized":"gamingnotteaminvite","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U38S9TU5P","U391YDBC1","U397K3J64","U39EE260H","U39EV1W4T","U39K0AVJQ","U3A4SHL02","U3A78KE3G","U3AQYULLE","U3BKCV9GW","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Post
+        your email and I''ll invite you to the slack team","creator":"U38S9TU5P","last_set":1487432007},"previous_names":[],"num_members":11},{"id":"C32T07VNV","name":"general","is_channel":true,"created":1479330016,"creator":"U33KPH8S0","is_archived":false,"is_general":true,"name_normalized":"general","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33FZD4JX","U33KPH8S0","U33N4KL5T","U38JGSJAY","U38S9TU5P","U391YDBC1","U392XNPT6","U397GTR46","U397K3J64","U39BMK1MX","U39C2CYGY","U39CMQAE5","U39D2JP09","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3FV967D2","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"Company-wide
+        announcements and work-based matters","creator":"","last_set":0},"purpose":{"value":"This
+        channel is for team-wide communication and announcements. All team members
+        are in this channel.","creator":"","last_set":0},"previous_names":[],"num_members":60},{"id":"C4XACM97W","name":"gluten_freedom","is_channel":true,"created":1491860789,"creator":"U39GRUPMG","is_archived":false,"is_general":false,"name_normalized":"gluten_freedom","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U39ET8DQT","U39GRUPMG","U39MEJ3B7","U3A7XFU5C","U3ABESD6K","U3ANS5Z55"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Discuss
+        the gluten free agenda","creator":"U39GRUPMG","last_set":1491860790},"previous_names":[],"num_members":6},{"id":"C4CU1M1KQ","name":"homework-help","is_channel":true,"created":1488392742,"creator":"U3A4SHL02","is_archived":false,"is_general":false,"name_normalized":"homework-help","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U38S9TU5P","U391YDBC1","U397K3J64","U39BMK1MX","U39CMQAE5","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX","U3M9ZMCBA"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Purpose
+        of this channel is to be able to ask for help on homework from other Addies,
+        so that we don\u2019t spend an inordinate amount of time on something that
+        could be clarified by someone else.","creator":"U3A4SHL02","last_set":1488403546},"previous_names":[],"num_members":47},{"id":"C3ABM0GRM","name":"introductions","is_channel":true,"created":1480646276,"creator":"U392XNPT6","is_archived":false,"is_general":false,"name_normalized":"introductions","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U33FZD4JX","U33KPH8S0","U38S9TU5P","U392XNPT6","U397GTR46","U397K3J64","U39C2CYGY","U39D2JP09","U39EE260H","U39EV1W4T","U39GRUPMG","U39H35674","U39H46VAN","U39K1A0GK","U39K4VC4C","U39LE4FR9","U39LW83T7","U39MEJ3B7","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A9RS5AB","U3ABESD6K","U3ANS5Z55","U3B16E3DG","U3B44VBBP","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3G4AFLLX","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"A
+        place for people to introduce themselves","creator":"U392XNPT6","last_set":1480646276},"previous_names":[],"num_members":38},{"id":"C37RFJCSD","name":"jumpstart-live","is_channel":true,"created":1480460199,"creator":"U33KPH8S0","is_archived":true,"is_general":false,"name_normalized":"jumpstart-live","is_shared":false,"is_org_shared":false,"is_member":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Discussion
+        and questions related to the Jumpstart Live (JSL) curriculum https:\/\/github.com\/Ada-Developers-Academy\/jump-start-live","creator":"U392XNPT6","last_set":1483841659},"previous_names":[],"num_members":0},{"id":"C4PQHNYJZ","name":"language-learning","is_channel":true,"created":1490468793,"creator":"U397K3J64","is_archived":false,"is_general":false,"name_normalized":"language-learning","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U397K3J64","U39CMQAE5","U39E85S65","U39EE260H","U39GRUPMG","U39K4VC4C","U39KGBSBV","U39LW83T7","U3A4SHL02","U3A798R5L","U3A912N5V","U3A9RS5AB","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3BKCV9GW","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"We''re
+        learning a lot of cool languages but there are even MORE cool languages out
+        there. Lets pool our resources together for them!","creator":"U397K3J64","last_set":1490468793},"previous_names":[],"num_members":17},{"id":"C4YA45XMH","name":"last-minute-hangouts","is_channel":true,"created":1492018176,"creator":"U3BNYKTCG","is_archived":false,"is_general":false,"name_normalized":"last-minute-hangouts","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U391YDBC1","U39CMQAE5","U39EE260H","U39EV1W4T","U39GRUPMG","U39K1A0GK","U39KGBSBV","U39LE4FR9","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3A7B5MRC","U3A912N5V","U3A9RS5AB","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B4KUY4V","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Spontaneous
+        Adies Anonymous Unite: encouraging spur of the moment hanging out among us.
+        Instances: 1.) You''re at a cafe and need a study buddy ASAP 2.) You want
+        to watch TV after class TODAY. NOTE: Nothing is too soon or too little notice.","creator":"U3BNYKTCG","last_set":1492018856},"previous_names":["last-minute-plans","p_last-minute-plans"],"num_members":24},{"id":"C462B94F9","name":"lets_move","is_channel":true,"created":1487094513,"creator":"U3A798R5L","is_archived":true,"is_general":false,"name_normalized":"lets_move","is_shared":false,"is_org_shared":false,"is_member":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"we
+        sit a lot, so let''s find some time to move a little. This could be @ Ada
+        during class breaks or off site like boxing, dancing,  climbing, or squats,
+        etc","creator":"U3A798R5L","last_set":1487094513},"previous_names":[],"num_members":0},{"id":"C48FPS89J","name":"lunch_places","is_channel":true,"created":1487700335,"creator":"U3A7XFU5C","is_archived":false,"is_general":false,"name_normalized":"lunch_places","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U39EE260H","U39K1A0GK","U39K4VC4C","U39KGBSBV","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A9RS5AB","U3AAH79KR","U3AQYULLE","U3B16E3DG","U3BKCV9GW","U3G4AFLLX","U3M9ZMCBA"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Places
+        to eat for those too lazy (busy) to make lunch.","creator":"U3A7XFU5C","last_set":1487700335},"previous_names":[],"num_members":17},{"id":"C45G08ETW","name":"lunch-recipes","is_channel":true,"created":1487102241,"creator":"U3A5NGDBN","is_archived":false,"is_general":false,"name_normalized":"lunch-recipes","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U33FZD4JX","U38S9TU5P","U391YDBC1","U397K3J64","U39E85S65","U39EE260H","U39H35674","U39J497DG","U39K4VC4C","U39LE4FR9","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7XFU5C","U3A8LLZHB","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3AQYULLE","U3B16E3DG","U3B44VBBP","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX","U3M9ZMCBA"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":26},{"id":"C396CKVU6","name":"moving-to-seattle","is_channel":true,"created":1480460189,"creator":"U33KPH8S0","is_archived":false,"is_general":false,"name_normalized":"moving-to-seattle","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U33FZD4JX","U38S9TU5P","U397GTR46","U397K3J64","U39D2JP09","U39EE260H","U39EV1W4T","U39GRUPMG","U39H35674","U39J497DG","U39K1A0GK","U39LE4FR9","U39LW83T7","U39MEJ3B7","U3A4SHL02","U3A6ZG0AG","U3A78KE3G","U3A7PGK2T","U3A7XFU5C","U3A9RS5AB","U3B16E3DG","U3B44VBBP","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":30},{"id":"C4992Q8ET","name":"new-tech-seattle","is_channel":true,"created":1487717119,"creator":"U39KGBSBV","is_archived":false,"is_general":false,"name_normalized":"new-tech-seattle","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U391YDBC1","U39ET8DQT","U39EV1W4T","U3A4SHL02","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3AAH79KR","U3B16E3DG","U3BKCV9GW"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Met
+        the cap for the number of people in a message. So made this temporary channel.","creator":"U39KGBSBV","last_set":1487717119},"previous_names":[],"num_members":9},{"id":"C38FXSNMQ","name":"party-planning","is_channel":true,"created":1480460269,"creator":"U33KPH8S0","is_archived":false,"is_general":false,"name_normalized":"party-planning","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33KPH8S0","U38JGSJAY","U38S9TU5P","U391YDBC1","U397GTR46","U397K3J64","U39CMQAE5","U39D2JP09","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3M9ZMCBA","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":52},{"id":"C3A6AV77U","name":"pre-ada-homework","is_channel":true,"created":1480741890,"creator":"U33KPH8S0","is_archived":true,"is_general":false,"name_normalized":"pre-ada-homework","is_shared":false,"is_org_shared":false,"is_member":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"C39J0U33L","name":"pre-ada-socializing","is_channel":true,"created":1480629149,"creator":"U33KPH8S0","is_archived":true,"is_general":false,"name_normalized":"pre-ada-socializing","is_shared":false,"is_org_shared":false,"is_member":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"C41GU2XU0","name":"queues","is_channel":true,"created":1486496659,"creator":"U397GTR46","is_archived":false,"is_general":false,"name_normalized":"queues","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U33KPH8S0","U33N4KL5T","U38S9TU5P","U391YDBC1","U392XNPT6","U397GTR46","U39BMK1MX","U39C2CYGY","U39E85S65","U39F60DTM","U39H35674","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3B16E3DG","U3B4KUY4V","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3G4AFLLX","U3M9ZMCBA"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":35},{"id":"C54D2EUAW","name":"queues_api_testing","is_channel":true,"created":1493151898,"creator":"U3UFLMRE1","is_archived":false,"is_general":false,"name_normalized":"queues_api_testing","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U38S9TU5P","U39BMK1MX","U39F60DTM","U39H35674","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3A7XFU5C","U3AAH79KR","U3ABESD6K","U3B16E3DG","U3B4KUY4V","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX","U3M9ZMCBA","U3UFLMRE1"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Testing
+        Slack API Apps","creator":"U3UFLMRE1","last_set":1493151899},"previous_names":[],"num_members":22},{"id":"C347W5RJS","name":"random","is_channel":true,"created":1479330016,"creator":"U33KPH8S0","is_archived":false,"is_general":false,"name_normalized":"random","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33FZD4JX","U33KPH8S0","U33N4KL5T","U38JGSJAY","U38S9TU5P","U391YDBC1","U392XNPT6","U397GTR46","U397K3J64","U39C2CYGY","U39CMQAE5","U39D2JP09","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3FV967D2","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"Non-work
+        banter and water cooler conversation","creator":"","last_set":0},"purpose":{"value":"A
+        place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber
+        you''d prefer to keep out of more focused work-related channels.","creator":"","last_set":0},"previous_names":[],"num_members":59},{"id":"C3GNDKQG7","name":"show-and-tell","is_channel":true,"created":1481935748,"creator":"U39LW83T7","is_archived":false,"is_general":false,"name_normalized":"show-and-tell","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U33FZD4JX","U33KPH8S0","U33N4KL5T","U38JGSJAY","U38S9TU5P","U391YDBC1","U397GTR46","U397K3J64","U39D2JP09","U39EE260H","U39ET8DQT","U39EV1W4T","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39LE4FR9","U39LW83T7","U39MEJ3B7","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Just
+        publish a blog post and would appreciate a tasty comment or two? Just launch
+        a website and would love a chunk of feedback? Post here!","creator":"U39LW83T7","last_set":1481935750},"previous_names":[],"num_members":44},{"id":"C37QJ5P6C","name":"social-justice","is_channel":true,"created":1480460171,"creator":"U33KPH8S0","is_archived":false,"is_general":false,"name_normalized":"social-justice","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33FZD4JX","U33KPH8S0","U38JGSJAY","U38S9TU5P","U391YDBC1","U397GTR46","U397K3J64","U39BMK1MX","U39C2CYGY","U39CMQAE5","U39D2JP09","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3FV967D2","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":58},{"id":"C432HP40N","name":"stacks","is_channel":true,"created":1486511622,"creator":"U3UFLMRE1","is_archived":false,"is_general":false,"name_normalized":"stacks","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33KPH8S0","U33N4KL5T","U392XNPT6","U397K3J64","U39C2CYGY","U39CMQAE5","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39LE4FR9","U39LW83T7","U39MEJ3B7","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AQYULLE","U3AVANZT8","U3B44VBBP","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3FV967D2","U3G4AFLLX","U3M9ZMCBA","U3UFLMRE1"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"A
+        Channel to students in the Stacks class","creator":"U3UFLMRE1","last_set":1486511628},"previous_names":[],"num_members":38},{"id":"C557BP9QE","name":"stacks_api_testing","is_channel":true,"created":1493151874,"creator":"U3UFLMRE1","is_archived":false,"is_general":false,"name_normalized":"stacks_api_testing","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U392XNPT6","U397K3J64","U39CMQAE5","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39GRUPMG","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39LE4FR9","U39LW83T7","U39MEJ3B7","U3A6ZG0AG","U3A798R5L","U3A7B5MRC","U3A912N5V","U3A9RS5AB","U3AQYULLE","U3AVANZT8","U3B44VBBP","U3UFLMRE1"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Testing
+        Slack APIs","creator":"U3UFLMRE1","last_set":1493151874},"previous_names":[],"num_members":24},{"id":"C40DY4QG6","name":"student_ids","is_channel":true,"created":1485993601,"creator":"U38S9TU5P","is_archived":false,"is_general":false,"name_normalized":"student_ids","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U39EV1W4T","U39H35674","U39LE4FR9","U39MEJ3B7","U3A78KE3G","U3A7PGK2T","U3A7XFU5C","U3BKCV9GW","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"ID
+        Cards will be $10.06 each. Payment options listed in the channel","creator":"U38S9TU5P","last_set":1485993601},"previous_names":[],"num_members":9},{"id":"C52TQ6BQX","name":"sunday_hike","is_channel":true,"created":1492704111,"creator":"U3A4SHL02","is_archived":false,"is_general":false,"name_normalized":"sunday_hike","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U391YDBC1","U39K1A0GK","U39LW83T7","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3BKCV9GW","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":11},{"id":"C3FK4DK9N","name":"sunday-office-hours","is_channel":true,"created":1482108576,"creator":"U392XNPT6","is_archived":true,"is_general":false,"name_normalized":"sunday-office-hours","is_shared":false,"is_org_shared":false,"is_member":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"A
+        place for announcements and questions related to the Sunday open office hours","creator":"U392XNPT6","last_set":1482108577},"previous_names":[],"num_members":0},{"id":"C38DXTGE7","name":"tech-events","is_channel":true,"created":1480460277,"creator":"U33KPH8S0","is_archived":false,"is_general":false,"name_normalized":"tech-events","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33KPH8S0","U38JGSJAY","U38S9TU5P","U391YDBC1","U392XNPT6","U397GTR46","U397K3J64","U39BMK1MX","U39CMQAE5","U39D2JP09","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3FV967D2","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":57},{"id":"C4NN58PHN","name":"tee_shirt_planning","is_channel":true,"created":1490379429,"creator":"U39K0AVJQ","is_archived":false,"is_general":false,"name_normalized":"tee_shirt_planning","is_shared":false,"is_org_shared":false,"is_member":true,"members":["U33KPH8S0","U38JGSJAY","U38S9TU5P","U397K3J64","U39CMQAE5","U39E85S65","U39EE260H","U39EV1W4T","U39GRUPMG","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39LE4FR9","U39LW83T7","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Anyone
+        who is interested in helping plan the C7 garment that gets ordered should
+        join this channel so we''re not spamming everyone in general. Then we''ll
+        send the order form to general when it''s ready!","creator":"U39K0AVJQ","last_set":1490379429},"previous_names":[],"num_members":35},{"id":"C56R6E6JY","name":"test-api-queues","is_channel":true,"created":1493617462,"creator":"U39C2CYGY","is_archived":false,"is_general":false,"name_normalized":"test-api-queues","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U397GTR46","U39C2CYGY"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":2},{"id":"C57J2M6SJ","name":"test-api-stacks","is_channel":true,"created":1493617471,"creator":"U39C2CYGY","is_archived":false,"is_general":false,"name_normalized":"test-api-stacks","is_shared":false,"is_org_shared":false,"is_member":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"C4F95ATHB","name":"tutortimes","is_channel":true,"created":1488944617,"creator":"U3A7PGK2T","is_archived":false,"is_general":false,"name_normalized":"tutortimes","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U3A7PGK2T","U3AAH79KR","U3BKCV9GW"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Tutoring
+        ideas, strategies, experiences, lessons learned.","creator":"U3A7PGK2T","last_set":1488944618},"previous_names":[],"num_members":3},{"id":"C47Q2BW22","name":"vr-ar-fun","is_channel":true,"created":1487355106,"creator":"U397K3J64","is_archived":false,"is_general":false,"name_normalized":"vr-ar-fun","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U33N4KL5T","U38S9TU5P","U391YDBC1","U397K3J64","U39E85S65","U39EE260H","U39EV1W4T","U39GRUPMG","U39J497DG","U39LW83T7","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A7PGK2T","U3A7XFU5C","U3A912N5V","U3AAH79KR","U3ABESD6K","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B4KUY4V","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"For
+        people who think VR\/AR is pretty cool","creator":"U397K3J64","last_set":1487355106},"previous_names":[],"num_members":25},{"id":"C4X0BF6VA","name":"whiteboard","is_channel":true,"created":1491828076,"creator":"U39LW83T7","is_archived":false,"is_general":false,"name_normalized":"whiteboard","is_shared":false,"is_org_shared":false,"is_member":false,"members":["U33KPH8S0","U38S9TU5P","U397K3J64","U39BMK1MX","U39CMQAE5","U39E85S65","U39EV1W4T","U39GRUPMG","U39H46VAN","U39HTDZ98","U39J497DG","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39LW83T7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7XFU5C","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B4KUY4V","U3BKCV9GW","U3BNYKTCG","U3G4AFLLX","U3M9ZMCBA"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":35}]}'
+    http_version: 
+  recorded_at: Tue, 02 May 2017 19:38:36 GMT
+- request:
+    method: get
+    uri: https://api.slack.com/api/channels.list?token=Bad%20token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '55'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Tue, 02 May 2017 19:52:53 GMT
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 580d5778-0f8d-4982-8fc5-b4b40056aaed
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 9c27a6b3685c5dacbf15cdd7fc8bb3c0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - GAWVlbMuXzZCaDQ6bw3HDiBRVcM7offiBBJQ4Qbk7XfFNTbIcVVP4g==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"invalid_auth"}'
+    http_version: 
+  recorded_at: Tue, 02 May 2017 19:52:54 GMT
+- request:
+    method: get
+    uri: https://api.slack.com/api/channels.info?channel=C396CPYBG&<SLACK_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '53'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Tue, 02 May 2017 20:02:11 GMT
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - channels:read
+      X-Content-Type-Options:
+      - nosniff
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 9484b453-0407-4efa-b1aa-fb575460ac7b
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 1c63b4647ec0b0f34169351e85c6a07a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Btf__-HhiVT6gbVcAewdU5MEA2J0EaRFD-UAZWbVrdvotZqqM2jf9w==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"not_authed"}'
+    http_version: 
+  recorded_at: Tue, 02 May 2017 20:02:12 GMT
+- request:
+    method: get
+    uri: https://api.slack.com/api/channels.info?channel=C396CPYBG&token=<SLACK_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '767'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Tue, 02 May 2017 20:04:07 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - channels:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 27747fc2-289b-4609-aa10-66dd10428161
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 beff637ae3d8d9cb7e1e6a841f0a1727.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - v38_MApSoQN-tNMivDqXKOWP3XIdm4Ham-uPlJPQLAVV7DfLzd_sSg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"channel":{"id":"C396CPYBG","name":"ada-announcements","is_channel":true,"created":1480460216,"creator":"U33KPH8S0","is_archived":false,"is_general":false,"name_normalized":"ada-announcements","is_shared":false,"is_org_shared":false,"is_member":true,"last_read":"1493679921.335269","latest":{"type":"message","user":"U3UFLMRE1","text":"Just
+        a reminder, keep the Slack spamming to the designated channels, as cute as
+        they may be.","ts":"1493679921.335269"},"unread_count":0,"unread_count_display":0,"members":["U33FZD4JX","U33KPH8S0","U33N4KL5T","U38JGSJAY","U38S9TU5P","U391YDBC1","U392XNPT6","U397GTR46","U397K3J64","U39BMK1MX","U39C2CYGY","U39CMQAE5","U39D2JP09","U39E85S65","U39EE260H","U39ET8DQT","U39EV1W4T","U39F60DTM","U39GRUPMG","U39H35674","U39H46VAN","U39HTDZ98","U39J497DG","U39K0AVJQ","U39K1A0GK","U39K4VC4C","U39KGBSBV","U39KVUG92","U39LE4FR9","U39LW83T7","U39MEJ3B7","U39PJDZ1T","U3A4SHL02","U3A5NGDBN","U3A6ZG0AG","U3A78KE3G","U3A798R5L","U3A7B5MRC","U3A7PGK2T","U3A7XFU5C","U3A8LLZHB","U3A912N5V","U3A9RS5AB","U3AAH79KR","U3ABESD6K","U3ANS5Z55","U3AQYULLE","U3AVANZT8","U3B16E3DG","U3B44VBBP","U3B4KUY4V","U3BB8T7UK","U3BBK9ESD","U3BKCV9GW","U3BNYKTCG","U3CGA6VMG","U3FV967D2","U3G4AFLLX","U3HA0R9J7","U3HH4A34H","U3HNFQGQG","U3M9ZMCBA","U3UFLMRE1","U4LB3RQ5Q","U51PHRLTT"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[]}}'
+    http_version: 
+  recorded_at: Tue, 02 May 2017 20:04:08 GMT
+- request:
+    method: get
+    uri: https://api.slack.com/api/channels.info?channel=nope&token=<SLACK_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '60'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Tue, 02 May 2017 20:05:49 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - channels:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 95a38d80-5a6b-4f87-9149-5d9b904b9afb
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 8b49bec6ed0cc97f9ccf13728cb06b26.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - efxaDHTODmhw8GT-xsuG09N1qukj7A0Q_WPg6MWgxizdN1n3vi3yLw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"channel_not_found"}'
+    http_version: 
+  recorded_at: Tue, 02 May 2017 20:05:50 GMT
+- request:
+    method: get
+    uri: https://api.slack.com/api/chat.postMessage?channel=C557BP9QE&icon_emoji=:joy_cat:&text=beautiful%20testing&token=<SLACK_TOKEN>&username=peanutbutter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '252'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Tue, 02 May 2017 20:46:48 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 88350b8c-8644-49ff-9ca4-b78500a8f395
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 01af0adaf4294a897372414c6adda42a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - VWIvIdI0wkXg2iScTAFbapDOB1ht46vORTUv1w8VLqXWVp33e9geaw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"channel":"C557BP9QE","ts":"1493758008.038764","message":{"text":"beautiful
+        testing","username":"peanutbutter","icons":{"emoji":":joy_cat:","image_64":"https:\/\/a.slack-edge.com\/f5d6f\/img\/emoji_2016_06_08\/apple\/1f639.png"},"bot_id":"B56M0N9J7","type":"message","subtype":"bot_message","ts":"1493758008.038764"}}'
+    http_version: 
+  recorded_at: Tue, 02 May 2017 20:46:50 GMT
+- request:
+    method: get
+    uri: https://api.slack.com/api/chat.postMessage?channel=fake&icon_emoji=::&text=nope&token=<SLACK_TOKEN>&username=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '60'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Tue, 02 May 2017 20:49:55 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 0f53cbad-c644-4816-bc77-1f86c2982f20
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 17127b42804acc81788818c1b0474090.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 61949j5AamWdV8ZxfBqH9_6p9aX4Vou-zGWfWOhijyMWZeF2S8sIPg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"channel_not_found"}'
+    http_version: 
+  recorded_at: Tue, 02 May 2017 20:49:56 GMT
+recorded_with: VCR 3.0.3

@@ -15,3 +15,12 @@
  *= require foundation_and_overrides
 
  */
+
+* {
+  list-style: none;
+}
+
+.index {
+  display: block;
+  text-align: center;
+}
